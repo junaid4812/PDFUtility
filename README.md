@@ -7,6 +7,7 @@ This utility can perform following actions
 3. Extract Attachment from PDF Documents
 
 **Input Details:**
+```
 usage: PDF Utility Info
 -a,--action <arg>        PDF Action e.g. Merge, Split, Extract
 -d,--destination <arg>   Destination directory, default destination is
@@ -16,6 +17,7 @@ action and as output name for merge action
 -n,--pagenumber <arg>    Page number to split the file
 -p,--password <arg>      Password for encrypted pdf
 -s,--source <arg>        Source Directory
+```
 
 
 **Merge Action:**
@@ -52,4 +54,6 @@ Note:
 
 command to run: 
 
-$ mvn clean package
+```shell
+mvn clean package
+```
